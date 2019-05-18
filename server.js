@@ -8,5 +8,5 @@ app.use(express.json())
 
 require('./app/routing/apiRoutes')(app)
 
-app.listen(3000)
-//app.listen(process.env.PORT || 3000)
+
+app.listen(process.env.PORT || 3000)
